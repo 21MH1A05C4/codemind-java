@@ -1,0 +1,16 @@
+import java.util.*;
+class Sum
+{
+public static void main(String args[])
+{
+	Scanner sc=new Scanner(System.in);
+	    int s,i;
+	    double sum=0.0;
+	    s=sc.nextInt();
+		for(i=1;i<=s;i++)
+		{
+		    sum+=(1.0/i);
+		}
+		System.out.format("%.2f",sum);
+}
+}
